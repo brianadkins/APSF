@@ -343,6 +343,16 @@ footer .archive-note {
     font-size: 0.85rem;
 }
 
+footer .contact-note {
+    margin-top: 0.5rem;
+}
+
+footer a {
+    color: rgba(255,255,255,0.82);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header-content {
