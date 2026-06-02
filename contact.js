@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     contacts.forEach((contact) => {
         contact.href = `mailto:${address}`;
-        contact.textContent = address;
+        contact.textContent = 'Email APSF';
         contact.removeAttribute('aria-disabled');
     });
 });
